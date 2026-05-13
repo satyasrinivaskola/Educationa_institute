@@ -11,7 +11,7 @@ import Departments from "./Departments";
 import Placements from "./Placements";
 import Gallery from "./Gallery";
 import Contact from "./Contact";
-import Admission_form from './Admission_form.js'
+import AdmissionForm from './Admission_form.js'
 import "./App.css";
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
         <Route path="/placements" element={<Placements />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/Form" element={<Admission_form/>}/>
+        <Route path="/Form" element={<AdmissionForm/>}/>
       </Routes>
 
       <Footer />
