@@ -1,0 +1,352 @@
+/* MAIN PAGE */
+
+.departments-page{
+  width:100%;
+  overflow-x:hidden;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  background:#f5f7fb;
+
+  color:#222;
+}
+
+
+/* HERO SECTION */
+
+.department-hero{
+  min-height:50vh;
+
+  background:
+  linear-gradient(rgba(0,0,0,0.6),
+  rgba(0,0,0,0.6)),
+  url("https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1400&auto=format&fit=crop");
+
+  background-size:cover;
+  background-position:center;
+
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+
+  text-align:center;
+
+  color:white;
+
+  padding:70px 20px;
+}
+
+.department-hero h1{
+  font-size:58px;
+
+  margin-bottom:18px;
+}
+
+.department-hero p{
+  font-size:22px;
+
+  max-width:800px;
+
+  line-height:1.7;
+}
+
+
+/* DEPARTMENT SECTION */
+
+.department-section{
+  padding:70px 7%;
+
+  text-align:center;
+
+  background:white;
+}
+
+.department-section h2{
+  font-size:42px;
+
+  color:#002b66;
+
+  margin-bottom:50px;
+}
+
+.department-grid{
+  display:grid;
+
+  grid-template-columns:
+  repeat(auto-fit,minmax(280px,1fr));
+
+  gap:30px;
+}
+
+
+/* CARD */
+
+.department-card{
+  background:#fff;
+
+  padding:35px 25px;
+
+  border-radius:16px;
+
+  box-shadow:0 4px 12px rgba(0,0,0,0.12);
+
+  transition:0.3s;
+
+  text-align:center;
+}
+
+.department-card:hover{
+  transform:translateY(-8px);
+
+  box-shadow:0 8px 20px rgba(0,0,0,0.18);
+}
+
+
+/* ICON */
+
+.department-icon{
+  font-size:55px;
+
+  margin-bottom:20px;
+}
+
+
+/* CARD TITLE */
+
+.department-card h3{
+  font-size:28px;
+
+  color:#014aad;
+
+  margin-bottom:18px;
+}
+
+
+/* CARD TEXT */
+
+.department-card p{
+  font-size:17px;
+
+  line-height:1.7;
+
+  color:#555;
+
+  margin-bottom:25px;
+}
+
+
+/* BUTTON */
+
+.department-card button{
+  padding:12px 28px;
+
+  border:none;
+
+  border-radius:8px;
+
+  background:#014aad;
+
+  color:white;
+
+  font-size:16px;
+
+  cursor:pointer;
+
+  transition:0.3s;
+}
+
+.department-card button:hover{
+  background:#002b66;
+
+  transform:scale(1.04);
+}
+
+
+/* FEATURES */
+
+.department-features{
+  padding:70px 7%;
+
+  background:#eef3ff;
+
+  text-align:center;
+}
+
+.department-features h2{
+  font-size:42px;
+
+  color:#002b66;
+
+  margin-bottom:50px;
+}
+
+.feature-grid{
+  display:grid;
+
+  grid-template-columns:
+  repeat(auto-fit,minmax(250px,1fr));
+
+  gap:25px;
+}
+
+.feature-card{
+  background:white;
+
+  padding:30px 22px;
+
+  border-radius:14px;
+
+  box-shadow:0 3px 10px rgba(0,0,0,0.1);
+
+  transition:0.3s;
+}
+
+.feature-card:hover{
+  transform:translateY(-6px);
+}
+
+.feature-card h3{
+  font-size:24px;
+
+  color:#014aad;
+
+  margin-bottom:15px;
+}
+
+.feature-card p{
+  font-size:16px;
+
+  line-height:1.7;
+
+  color:#555;
+}
+
+
+/* STATS */
+
+.department-stats{
+  display:grid;
+
+  grid-template-columns:
+  repeat(auto-fit,minmax(220px,1fr));
+
+  gap:25px;
+
+  padding:70px 7%;
+
+  background:#002b66;
+}
+
+.dept-stat-box{
+  background:white;
+
+  padding:35px 20px;
+
+  border-radius:14px;
+
+  text-align:center;
+
+  box-shadow:0 3px 10px rgba(0,0,0,0.15);
+}
+
+.dept-stat-box h2{
+  font-size:45px;
+
+  color:#014aad;
+
+  margin-bottom:12px;
+}
+
+.dept-stat-box p{
+  font-size:20px;
+
+  color:#444;
+}
+
+
+/* CTA */
+
+.department-cta{
+  background:
+  linear-gradient(to right,#001f4d,#014aad);
+
+  color:white;
+
+  text-align:center;
+
+  padding:80px 20px;
+}
+
+.department-cta h2{
+  font-size:48px;
+
+  margin-bottom:15px;
+}
+
+.department-cta p{
+  font-size:22px;
+
+  margin-bottom:28px;
+}
+
+.department-cta button{
+  padding:14px 35px;
+
+  border:none;
+
+  border-radius:8px;
+
+  background:gold;
+
+  color:black;
+
+  font-size:18px;
+
+  font-weight:bold;
+
+  cursor:pointer;
+
+  transition:0.3s;
+}
+
+.department-cta button:hover{
+  transform:scale(1.05);
+}
+
+
+/* RESPONSIVE */
+
+@media(max-width:900px){
+
+  .department-hero h1{
+    font-size:40px;
+  }
+
+  .department-hero p{
+    font-size:18px;
+  }
+
+  .department-section h2,
+  .department-features h2,
+  .department-cta h2{
+    font-size:34px;
+  }
+
+}
+
+@media(max-width:600px){
+
+  .department-hero{
+    min-height:40vh;
+  }
+
+  .department-hero h1{
+    font-size:32px;
+  }
+
+  .department-card h3{
+    font-size:24px;
+  }
+
+}

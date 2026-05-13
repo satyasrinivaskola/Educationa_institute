@@ -1,9 +1,11 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import "./Home.css"
 function Home() {
 const navigate = useNavigate();
   return (
     <div>
+   
       <section className="hero">
         <h1>Welcome To Global College</h1>
 
@@ -19,17 +21,17 @@ const navigate = useNavigate();
       <section className="info-section">
 
         <div className="info-box">
-          <h2>5000+</h2>
+          <h3>5000+</h3>
           <p>Students</p>
         </div>
 
         <div className="info-box">
-          <h2>100+</h2>
+          <h3>100+</h3>
           <p>Faculty Members</p>
         </div>
 
         <div className="info-box">
-          <h2>95%</h2>
+          <h3>95%</h3>
           <p>Placements</p>
         </div>
 

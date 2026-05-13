@@ -1,5 +1,5 @@
 import React from "react";
-
+import './DepartmentCard.css'
 function DepartmentCard({ title, desc }) {
   return (
     <div className="card">

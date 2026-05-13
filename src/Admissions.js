@@ -1,5 +1,5 @@
 import React from "react";
-
+import './Admissions.css'
 function Admissions() {
   return (
     <div className="admission-page">
@@ -23,7 +23,7 @@ function Admissions() {
       {/* Admission Process */}
       <section className="admission-process">
 
-        <h2>Admission Process</h2>
+        <h1>Admission Process</h1>
 
         <div className="process-container">
 
@@ -53,7 +53,7 @@ function Admissions() {
       {/* Courses */}
       <section className="courses-section">
 
-        <h2>Available Courses</h2>
+        <h1>Available Courses</h1>
 
         <div className="course-grid">
 
@@ -83,7 +83,7 @@ function Admissions() {
       {/* Eligibility */}
       <section className="eligibility-section">
 
-        <h2>Eligibility Criteria</h2>
+        <h3>Eligibility Criteria</h3>
 
         <div className="eligibility-box">
           <p>✔ Intermediate / 12th Pass</p>
@@ -97,7 +97,7 @@ function Admissions() {
       {/* CTA */}
       <section className="admission-cta">
 
-        <h2>Ready To Join?</h2>
+        <h3>Ready To Join?</h3>
 
         <p>
           Admissions are open for the academic year 2026.

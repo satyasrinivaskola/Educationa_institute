@@ -1,5 +1,5 @@
 import React from "react";
-
+import './Departments.css'
 function Departments() {
 
   const departments = [
@@ -55,7 +55,7 @@ function Departments() {
 
       <section className="department-section">
 
-        <h2>Academic Departments</h2>
+        <h3>Academic Departments</h3>
 
         <div className="department-grid">
 
@@ -85,7 +85,7 @@ function Departments() {
 
       <section className="department-features">
 
-        <h2>Why Our Departments Stand Out</h2>
+        <h3>Why Our Departments Stand Out</h3>
 
         <div className="feature-grid">
 
@@ -126,22 +126,22 @@ function Departments() {
       <section className="department-stats">
 
         <div className="dept-stat-box">
-          <h2>15+</h2>
+          <h3>15+</h3>
           <p>Departments</p>
         </div>
 
         <div className="dept-stat-box">
-          <h2>100+</h2>
+          <h3>100+</h3>
           <p>Faculty Members</p>
         </div>
 
         <div className="dept-stat-box">
-          <h2>50+</h2>
+          <h3>50+</h3>
           <p>Research Labs</p>
         </div>
 
         <div className="dept-stat-box">
-          <h2>95%</h2>
+          <h3>95%</h3>
           <p>Placement Rate</p>
         </div>
 
@@ -151,7 +151,7 @@ function Departments() {
 
       <section className="department-cta">
 
-        <h2>Build Your Career With Us</h2>
+        <h3>Build Your Career With Us</h3>
 
         <p>
           Choose the right department and shape your future.

@@ -1,4 +1,5 @@
 import React from "react";
+import "./Placements.css";
 
 function Placements() {
 
@@ -34,22 +35,22 @@ function Placements() {
       <section className="placement-stats">
 
         <div className="stat-box">
-          <h2>95%</h2>
+          <h3>95%</h3>
           <p>Placement Rate</p>
         </div>
 
         <div className="stat-box">
-          <h2>250+</h2>
+          <h3>250+</h3>
           <p>Hiring Companies</p>
         </div>
 
         <div className="stat-box">
-          <h2>₹12 LPA</h2>
+          <h3>₹12 LPA</h3>
           <p>Highest Package</p>
         </div>
 
         <div className="stat-box">
-          <h2>5000+</h2>
+          <h3>5000+</h3>
           <p>Students Placed</p>
         </div>
 
@@ -59,7 +60,7 @@ function Placements() {
 
       <section className="recruiters-section">
 
-        <h2>Top Recruiters</h2>
+        <h1>Top Recruiters</h1>
 
         <div className="company-grid">
 
@@ -77,7 +78,7 @@ function Placements() {
 
       <section className="placement-benefits">
 
-        <h2>Why Students Choose Us</h2>
+        <h3>Why Students Choose Us</h3>
 
         <div className="benefit-container">
 
@@ -117,7 +118,7 @@ function Placements() {
 
       <section className="success-section">
 
-        <h2>Student Success Stories</h2>
+        <h3>Student Success Stories</h3>
 
         <div className="success-grid">
 
@@ -147,7 +148,7 @@ function Placements() {
 
       <section className="placement-cta">
 
-        <h2>Your Dream Career Starts Here</h2>
+        <h3>Your Dream Career Starts Here</h3>
 
         <p>
           Join Global College and unlock top placement opportunities.

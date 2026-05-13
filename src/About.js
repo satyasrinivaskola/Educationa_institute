@@ -1,5 +1,6 @@
 import React from "react";
-
+import "./About.css"
+import image from './im.webp'
 function About() {
   return (
     <div className="about-page">
@@ -23,7 +24,7 @@ function About() {
 
         <div className="about-left">
 
-          <h2>Who We Are</h2>
+          <h3>Who We Are</h3>
 
           <p>
             Global College is one of the leading educational
@@ -44,7 +45,7 @@ function About() {
 
         <div className="about-right">
           <img
-            src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1"
+            src={image}
             alt="college"
           />
         </div>
@@ -56,7 +57,7 @@ function About() {
       <section className="vision-section">
 
         <div className="vision-card">
-          <h2>Our Vision</h2>
+          <h3>Our Vision</h3>
 
           <p>
             To become a globally recognized institution
@@ -65,7 +66,7 @@ function About() {
         </div>
 
         <div className="vision-card">
-          <h2>Our Mission</h2>
+          <h3>Our Mission</h3>
 
           <p>
             To empower students with knowledge, skills,
@@ -79,7 +80,7 @@ function About() {
 
       <section className="highlights-section">
 
-        <h2>Why Choose Us</h2>
+        <h3>Why Choose Us</h3>
 
         <div className="highlight-grid">
 
@@ -112,22 +113,22 @@ function About() {
       <section className="achievement-section">
 
         <div className="achievement-box">
-          <h2>5000+</h2>
+          <h3>5000+</h3>
           <p>Students</p>
         </div>
 
         <div className="achievement-box">
-          <h2>100+</h2>
+          <h3>100+</h3>
           <p>Faculty Members</p>
         </div>
 
         <div className="achievement-box">
-          <h2>250+</h2>
+          <h3>250+</h3>
           <p>Recruiting Companies</p>
         </div>
 
         <div className="achievement-box">
-          <h2>95%</h2>
+          <h3>95%</h3>
           <p>Placement Rate</p>
         </div>
 
@@ -137,7 +138,7 @@ function About() {
 
       <section className="about-cta">
 
-        <h2>Start Your Academic Journey Today</h2>
+        <h1>Start Your Academic Journey Today</h1>
 
         <p>
           Admissions are open for the academic year 2026.

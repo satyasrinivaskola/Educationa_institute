@@ -1,0 +1,276 @@
+/* PAGE */
+
+.placements-page{
+  width:100%;
+  overflow-x:hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  background:#f4f7fb;
+  color:#111;
+}
+
+
+/* HERO SECTION */
+
+.placement-hero{
+  min-height:80vh;
+  background:linear-gradient(to right,#002b66,#014aad);
+  color:white;
+
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+
+  text-align:center;
+  padding:40px 20px;
+}
+
+.placement-hero h1{
+  font-size:60px;
+  margin-bottom:20px;
+}
+
+.placement-hero p{
+  font-size:22px;
+  max-width:800px;
+  line-height:1.6;
+  margin-bottom:30px;
+}
+
+.placement-hero button{
+  padding:15px 35px;
+  border:none;
+  border-radius:8px;
+  background:gold;
+  color:#000;
+  font-size:18px;
+  cursor:pointer;
+  font-weight:bold;
+  transition:0.3s;
+}
+
+.placement-hero button:hover{
+  transform:scale(1.05);
+}
+
+
+/* STATS */
+
+.placement-stats{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:25px;
+
+  padding:70px 50px;
+  background:white;
+}
+
+.stat-box{
+  background:#002b66;
+  color:white;
+
+  padding:40px 20px;
+  border-radius:12px;
+
+  text-align:center;
+
+  box-shadow:0 4px 12px rgba(0,0,0,0.2);
+}
+
+.stat-box h3{
+  font-size:45px;
+  margin-bottom:10px;
+  color:gold;
+}
+
+.stat-box p{
+  font-size:20px;
+}
+
+
+/* TOP RECRUITERS */
+
+.recruiters-section{
+  padding:80px 40px;
+  text-align:center;
+}
+
+.recruiters-section h2{
+  font-size:45px;
+  margin-bottom:50px;
+  color:#002b66;
+}
+
+.company-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:30px;
+}
+
+.company-card{
+  background:white;
+  padding:50px 20px;
+
+  border-radius:15px;
+
+  box-shadow:0 4px 10px rgba(0,0,0,0.15);
+
+  transition:0.3s;
+}
+
+.company-card:hover{
+  transform:translateY(-8px);
+}
+
+.company-card h3{
+  font-size:28px;
+  color:#014aad;
+}
+
+
+/* BENEFITS */
+
+.placement-benefits{
+  padding:80px 40px;
+  background:#eef3ff;
+  text-align:center;
+}
+
+.placement-benefits h2{
+  font-size:45px;
+  margin-bottom:50px;
+  color:#002b66;
+}
+
+.benefit-container{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:30px;
+}
+
+.benefit-card{
+  background:white;
+  padding:40px 25px;
+
+  border-radius:15px;
+
+  box-shadow:0 4px 10px rgba(0,0,0,0.15);
+}
+
+.benefit-card h3{
+  font-size:28px;
+  margin-bottom:15px;
+  color:#014aad;
+}
+
+.benefit-card p{
+  font-size:18px;
+  line-height:1.6;
+}
+
+
+/* SUCCESS STORIES */
+
+.success-section{
+  padding:80px 40px;
+  text-align:center;
+}
+
+.success-section h2{
+  font-size:45px;
+  margin-bottom:50px;
+  color:#002b66;
+}
+
+.success-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:30px;
+}
+
+.success-card{
+  background:#002b66;
+  color:white;
+
+  padding:40px 25px;
+
+  border-radius:15px;
+
+  box-shadow:0 4px 12px rgba(0,0,0,0.2);
+}
+
+.success-card h3{
+  font-size:30px;
+  margin-bottom:10px;
+}
+
+.success-card p{
+  font-size:20px;
+  margin-bottom:15px;
+}
+
+.success-card span{
+  font-size:18px;
+  color:gold;
+}
+
+
+/* CTA */
+
+.placement-cta{
+  background:linear-gradient(to right,#001f4d,#014aad);
+  color:white;
+
+  text-align:center;
+
+  padding:90px 20px;
+}
+
+.placement-cta h2{
+  font-size:55px;
+  margin-bottom:20px;
+}
+
+.placement-cta p{
+  font-size:22px;
+  margin-bottom:30px;
+}
+
+.placement-cta button{
+  padding:15px 40px;
+  border:none;
+  border-radius:10px;
+
+  background:gold;
+  color:black;
+
+  font-size:20px;
+  font-weight:bold;
+
+  cursor:pointer;
+}
+
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+  .placement-hero h1{
+    font-size:38px;
+  }
+
+  .placement-hero p{
+    font-size:18px;
+  }
+
+  .placement-cta h2{
+    font-size:35px;
+  }
+
+  .recruiters-section h2,
+  .placement-benefits h2,
+  .success-section h2{
+    font-size:35px;
+  }
+
+}

@@ -1,0 +1,313 @@
+/* MAIN PAGE */
+body{
+  margin:0;
+  padding:0;
+}
+.admission-process{
+  padding:50px 7%;
+}
+.admission-page{
+  width:100%;
+  overflow-x:hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  background:#f5f7fb;
+  color:#222;
+}
+
+
+/* HERO SECTION */
+
+.admission-hero{
+  min-height:45vh;
+
+  background:
+  linear-gradient(rgba(70, 105, 158, 0.55),
+  rgba(66, 138, 185, 0.55)),
+  url("https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1400&auto=format&fit=crop");
+
+  background-size:cover;
+  background-position:center;
+
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+
+  text-align:center;
+
+  color:white;
+
+  padding:70px 20px 50px;
+}
+.admission-hero h1{
+  font-size:58px;
+  margin-bottom:18px;
+}
+
+.admission-hero p{
+  font-size:22px;
+  max-width:750px;
+  line-height:1.6;
+
+  margin-bottom:28px;
+}
+
+.admission-hero button{
+  padding:14px 35px;
+
+  border:none;
+  border-radius:8px;
+
+  background:gold;
+  color:black;
+
+  font-size:18px;
+  font-weight:bold;
+
+  cursor:pointer;
+
+  transition:0.3s;
+}
+
+.admission-hero button:hover{
+  transform:scale(1.05);
+}
+
+
+/* ADMISSION PROCESS */
+
+.admission-process{
+  padding:10px;
+  text-align:center;
+
+  background:lightblue;
+}
+
+.admission-process h2{
+  font-size:42px;
+  color:#002b66;
+
+  margin-bottom:45px;
+}
+
+.process-container{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+
+  gap:25px;
+}
+
+.process-card{
+  background:#f8f9fc;
+
+  padding:35px 25px;
+
+  border-radius:14px;
+
+  box-shadow:0 3px 10px rgba(0,0,0,0.1);
+
+  transition:0.3s;
+}
+
+.process-card:hover{
+  transform:translateY(-6px);
+}
+
+.process-card h3{
+  font-size:26px;
+  color:#014aad;
+
+  margin-bottom:15px;
+}
+
+.process-card p{
+  font-size:17px;
+  line-height:1.7;
+  color:#444;
+}
+
+
+/* COURSES SECTION */
+
+.courses-section{
+  padding:10px 7%;
+
+  background:#eef3ff;
+
+  text-align:center;
+}
+
+.courses-section h3{
+  font-size:42px;
+
+  color:#002b66;
+
+  margin-bottom:45px;
+}
+
+.course-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+
+  gap:25px;
+}
+
+.course-box{
+  background:white;
+
+  padding:10px 20px;
+
+  border-radius:14px;
+
+  box-shadow:0 3px 10px rgba(0,0,0,0.1);
+
+  transition:0.3s;
+}
+
+.course-box:hover{
+  transform:translateY(-6px);
+}
+
+.course-box h3{
+  font-size:28px;
+
+  color:#014aad;
+
+  margin-bottom:15px;
+}
+
+.course-box p{
+  font-size:17px;
+  line-height:1.7;
+  color:#444;
+}
+
+
+/* ELIGIBILITY */
+
+.eligibility-section{
+  padding:10px 7%;
+
+  background:white;
+
+  text-align:center;
+ 
+}
+
+.eligibility-section h2{
+  font-size:42px;
+
+  color:#002b66;
+
+  margin-bottom:35px;
+}
+
+.eligibility-box{
+  max-width:650px;
+
+  margin:auto;
+
+  background:#002b66;
+
+  color:white;
+
+  padding:10px 10px;
+
+  border-radius:16px;
+
+  box-shadow:0 4px 12px rgba(0,0,0,0.15);
+}
+
+.eligibility-box p{
+  font-size:20px;
+
+  margin-bottom:18px;
+
+  line-height:1.7;
+}
+
+
+/* CTA SECTION */
+
+.admission-cta{
+  background:
+  linear-gradient(to right,#001f4d,#014aad);
+
+  color:white;
+
+  text-align:center;
+
+  padding:10px 20px;
+  
+}
+
+.admission-cta h2{
+  font-size:46px;
+
+  margin-bottom:15px;
+}
+
+.admission-cta p{
+  font-size:21px;
+
+  margin-bottom:28px;
+}
+
+.admission-cta button{
+  padding:14px 35px;
+
+  border:none;
+  border-radius:8px;
+
+  background:gold;
+  color:black;
+
+  font-size:18px;
+  font-weight:bold;
+
+  cursor:pointer;
+
+  transition:0.3s;
+}
+
+.admission-cta button:hover{
+  transform:scale(1.05);
+}
+
+
+/* RESPONSIVE */
+
+@media(max-width:900px){
+
+  .admission-hero h1{
+    font-size:40px;
+  }
+
+  .admission-hero p{
+    font-size:18px;
+  }
+
+  .admission-process h2,
+  .courses-section h2,
+  .eligibility-section h2,
+  .admission-cta h2{
+    font-size:34px;
+  }
+
+}
+
+@media(max-width:600px){
+
+  .admission-hero{
+    height:50vh;
+  }
+
+  .admission-hero h1{
+    font-size:32px;
+  }
+
+  .eligibility-box p{
+    font-size:17px;
+  }
+
+}
