@@ -23,6 +23,13 @@ function Navbar() {
         
  <div className={`sidebar ${showMenu ? "active" : ""}`}>
    <nav className="navbar">
+
+  <div
+    className="close-btn"
+    onClick={() => setShowMenu(false)}
+  >
+    ✕
+  </div>
       <ul className="nav-icon">
         <li><Link to="/" onClick={closeMenu}>Home</Link></li>
         <li><Link to="/about" onClick={closeMenu}>About</Link></li>
@@ -31,6 +38,7 @@ function Navbar() {
         <li><Link to="/placements" onClick={closeMenu}>Placements</Link></li>
         <li><Link to="/gallery" onClick={closeMenu}>Gallery</Link></li>
         <li><Link to="/contact" onClick={closeMenu}>Contact</Link></li>
+        <li><Link to="/Form" onClick={closeMenu}>Form</Link></li>
       </ul>
     </nav>
     </div>

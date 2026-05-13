@@ -1,7 +1,8 @@
 import React from "react";
 import "./Placements.css";
-
+import { useNavigate } from "react-router-dom";
 function Placements() {
+const navigate = useNavigate();
 
   const companies = [
     "Infosys",
@@ -154,7 +155,7 @@ function Placements() {
           Join Global College and unlock top placement opportunities.
         </p>
 
-        <button>Join Now</button>
+        <button onClick={() => navigate("/Form")}>Join Now</button>
 
       </section>
 

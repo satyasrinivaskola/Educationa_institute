@@ -8,6 +8,12 @@ left:40px;;
 
 color:gold;
 }
+.close-btn{
+position:absolute;
+top:0;
+right:0;
+padding-right:20px;
+}
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -15,7 +21,7 @@ body {
 
 /* Top Navbar */
 .navbar {
-  background-color: #001f4d;
+  background-color:green;
   color: white;
   display: flex;
   align-items: center;
@@ -54,7 +60,7 @@ body {
   left: -250px;
   width: 250px;
   height: 100%;
-  background: #012a63;
+  background: #001f4d;
   display: flex;
   flex-direction: column;
   padding-top: 80px;

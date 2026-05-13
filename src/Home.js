@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./Home.css"
+
 function Home() {
 const navigate = useNavigate();
   return (
@@ -13,7 +14,7 @@ const navigate = useNavigate();
           Excellence In Education, Innovation & Research
         </p>
 
-      <button onClick={() => navigate("/admissions")}>
+      <button onClick={() => navigate("/AdmissionForm")}>
    Apply Now
 </button>
       </section>
