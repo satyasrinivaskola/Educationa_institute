@@ -26,7 +26,7 @@ function App() {
         <Route path="/placements" element={<Placements />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/Form" element={<AdmissionForm/>}/>
+        <Route path="/AdmissionForm" element={<AdmissionForm/>}/>
       </Routes>
 
       <Footer />

@@ -11,8 +11,8 @@ function Navbar() {
   
       
       <div className="top-bar navbar">
-    
-      <h2>Global College</h2>
+    <div className="Colleg-name">
+      <h3 >MNR College</h3></div>
   <div
           className="menu-icon"
           onClick={() => setShowMenu(!showMenu)}
@@ -38,7 +38,7 @@ function Navbar() {
         <li><Link to="/placements" onClick={closeMenu}>Placements</Link></li>
         <li><Link to="/gallery" onClick={closeMenu}>Gallery</Link></li>
         <li><Link to="/contact" onClick={closeMenu}>Contact</Link></li>
-        <li><Link to="/Form" onClick={closeMenu}>Form</Link></li>
+        
       </ul>
     </nav>
     </div>

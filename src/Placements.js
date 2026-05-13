@@ -155,7 +155,7 @@ const navigate = useNavigate();
           Join Global College and unlock top placement opportunities.
         </p>
 
-        <button onClick={() => navigate("/Form")}>Join Now</button>
+        <button onClick={() => navigate("/AdmissionForm")}>Join Now</button>
 
       </section>
 
