@@ -8,7 +8,7 @@ const navigate = useNavigate();
     <div>
    
       <section className="hero">
-        <h1>Welcome To Global College</h1>
+        <h1>Welcome To Global College ZXQ987SATYA</h1>
         
 
         <p>
