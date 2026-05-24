@@ -9,9 +9,10 @@ const navigate = useNavigate();
    
       <section className="hero">
         <h1>Welcome To Global College</h1>
+        
 
         <p>
-          Excellence In Education, Innovation & Research
+          Excellence In Education, Innovation & Research ZXQ987SATYA
         </p>
 
       <button onClick={() => navigate("/AdmissionForm")}>
